@@ -23,7 +23,7 @@ unsigned long long branch(long long x, long long y) {
 	}else if(x>3 && y>3){
 	    return 12;
 	}
-	return 12;	
+	return 33;	
 }
 
 /*
@@ -32,5 +32,5 @@ unsigned long long branch(long long x, long long y) {
     For example loop(3,2) = 3*2 + 2*1 = 8.
 */
 int loop(int x, int y) {
-    return (x*y) + ((x-1) + (y-1));
+    return x*(x-1) + y*(y-1);
 }
